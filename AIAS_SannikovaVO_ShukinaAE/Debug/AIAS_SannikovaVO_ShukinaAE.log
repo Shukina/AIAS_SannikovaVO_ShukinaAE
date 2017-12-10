@@ -1,6 +1,6 @@
-﻿  Treap_main.cpp
+﻿  SortArray.cpp
+c:\users\аня\documents\visual studio 2015\projects\aias_sannikovavo_shukinaae\aias_sannikovavo_shukinaae\sortarray.cpp(31): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   AVL_main.cpp
-c:\users\аня\documents\visual studio 2015\projects\aias_sannikovavo_shukinaae\aias_sannikovavo_shukinaae\avl_main.cpp(9): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода...
   AIAS_SannikovaVO_ShukinaAE.vcxproj -> C:\Users\Аня\Documents\Visual Studio 2015\Projects\AIAS_SannikovaVO_ShukinaAE\Debug\AIAS_SannikovaVO_ShukinaAE.exe
   AIAS_SannikovaVO_ShukinaAE.vcxproj -> C:\Users\Аня\Documents\Visual Studio 2015\Projects\AIAS_SannikovaVO_ShukinaAE\Debug\AIAS_SannikovaVO_ShukinaAE.pdb (Partial PDB)
