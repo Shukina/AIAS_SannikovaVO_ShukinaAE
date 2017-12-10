@@ -49,11 +49,6 @@ public:
 			else if (r)
 				return r;
 		}
-		/*if (l->key == r->key) ????
-		{
-			l->key.SetValue(l->key.GetValue() + 1);
-			return l;
-		}*/
 		if (l->depth >= r->depth) 
 		{
 			l->right = merge(l->right, r);
@@ -105,7 +100,6 @@ public:
 			//root = tn;
 			return;
 		}
-		/*TreapNode *tn = new TreapNode(w.GetKey(), w.GetValue());*/
 		TreapNode *t1, *t2;
 		
 		split(root, tn, t1, t2);
@@ -134,11 +128,6 @@ public:
 		dispose(n->right);
 		delete n;
 	}
-
-	
-
-	
-	
 
 	// Делает обход дерева слева-направо и печатает в консоль тройки (ключ узла, приоритет, глубина узла).
 	void Show(TreapNode* node, int currentLevel)

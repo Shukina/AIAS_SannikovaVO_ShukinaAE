@@ -144,20 +144,6 @@ public:
 		Show(node->right);
 	}
 
-
-	/*void FindMax(AVLNode * node, List & l)
-	{
-		if (node != NULL)
-		{
-			FindMax(node->left, l);
-
-			l.SortInsert(node->x);
-
-			FindMax(node->right, l);
-		}
-	}*/
-
-
 	AVLNode* findmin(AVLNode* p) // поиск узла с минимальным ключом в дереве p 
 	{
 		return p->left ? findmin(p->left) : p;
@@ -193,7 +179,6 @@ public:
 		return Balance(p);
 	}
 
-	//Search??? что возвращать
 	AVLNode* Search(AVLNode* r, int key) //like BST
 	{
 		if (r == NULL) return NULL;
